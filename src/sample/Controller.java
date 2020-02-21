@@ -96,7 +96,7 @@ public class Controller implements Initializable {
             alertBrutto.setTitle("Informacje o wypłacie w Brutto");
             alertBrutto.setHeaderText("Kwota w Brutto: " + data * 1.23);
             alertBrutto.setContentText(
-                    "Kodana kwota Netto: " + data + "zł" + "\n" +
+                    "Podana kwota Netto: " + data + "zł" + "\n" +
                             "Kwota VAT 23% : " + vatBrutto23 + "zł" + "\n" +
                             "Kwota VAT 8% : " + vatBrutto8 + "zł" + "\n" +
                             "Kwota VAT 5% : " + vatBrutto5 + "zł"
